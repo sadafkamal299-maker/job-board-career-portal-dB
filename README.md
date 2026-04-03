@@ -26,8 +26,8 @@ job-board-career-portal-dB/
 | `Jobs`      | Job listings posted by employers |
 | `Applications` | Applications submitted by job seekers |
 | `Interviews` | Interview scheduling and outcome per application |
-| `SavedJobs` | Junction table — seekers bookmarking jobs (M:M) |
-| `Reviews` | Junction table — seekers reviewing employers (M:M) |
+| `SavedJobs` | Junction table — links seekers to their bookmarked jobs |
+| `Reviews` | Junction table — links seekers to employer reviews |
 
 ## How to Run (Programiz)
 1. Open [https://www.programiz.com/sql/online-compiler](https://www.programiz.com/sql/online-compiler)
