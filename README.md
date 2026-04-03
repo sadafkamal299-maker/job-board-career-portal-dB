@@ -7,14 +7,11 @@ This database models the complete lifecycle of a job portal — from employer re
 ## Repository Structure
 ```
 job-board-career-portal-dB/
-├── sql/
-│   ├── schema.sql
-│   ├── sample_data.sql
-│   └── reset.sql
-├── diagrams/
-│   └── er_diagram.png
-├── report/
-│   └── Job_Board_Database_Project.pdf
+├── schema.sql                                   # DDL — CREATE TABLE statements
+├── sample_data.sql                              # DML — INSERT statements
+├── Reset.sql                                    # DROP statements to reset
+├── ER Diagram.png                               # ER diagram image
+├── CS630-154W - Job Board & Career Portal...pdf # Full project report
 └── README.md
 ```
 
@@ -35,11 +32,11 @@ job-board-career-portal-dB/
 ## How to Run (Programiz)
 1. Open [https://www.programiz.com/sql/online-compiler](https://www.programiz.com/sql/online-compiler)
 2. Clear the default content in the editor by dropping the table
-3. Copy the full contents of `sql/schema.sql` and run it
-4. Copy the full contents of `sql/sample_data.sql` and run it
+3. Copy the full contents of `schema.sql` and run it
+4. Copy the full contents of `sample_data.sql` and run it
 5. Write and run any SELECT queries to explore the data
 
-**To reset the database**, run `sql/reset.sql` first, then re-run schema and sample data.
+**To reset the database**, run `Reset.sql` first, then re-run schema and sample data.
 > **Note:** SQLite does not enforce foreign keys by default. If you want FK enforcement, add `PRAGMA foreign_keys = ON;` at the top of your session before running the schema.
 
 ## Sample Queries
