@@ -12,7 +12,7 @@ job-board-career-portal-dB/
 │   ├── sample_data.sql
 │   └── reset.sql
 ├── diagrams/
-│   └── er_diagram.pdf
+│   └── er_diagram.png
 ├── report/
 │   └── Job_Board_Database_Project.pdf
 └── README.md
