@@ -120,7 +120,7 @@ All tables are normalized to **3NF**:
 | Report Format | PDF (.pdf) |
 
 ## Course Information
-**Student Name:** Sadaf Shiraz Kamal
+**Student Name:** Sadaf Shiraz Kamal  
 **Course:** Database Management Systems  
 **Project:** Final Project — Database-Backed Application  
 **Track:** Independent Project
